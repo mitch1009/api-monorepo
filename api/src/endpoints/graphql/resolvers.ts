@@ -4,6 +4,5 @@ export const resolvers = {
     },
     Mutation: {
         hello: (_: unknown, args: { name: string }) => `Hello ${args.name} welcome to api monorepo`
-
     }
 }
